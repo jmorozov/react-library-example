@@ -28,7 +28,7 @@ export default {
   plugins: [
     external(),
     postcss({
-      modules: true,
+      modules: false,
       extract: true,
       minimize: true,
       sourceMap: true

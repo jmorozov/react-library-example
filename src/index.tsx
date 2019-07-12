@@ -1,4 +1,4 @@
-import {ExampleComponent, Props} from './ExampleComponent';
-import './export.css'
+import { ExampleComponent } from './components/ExampleComponent/ExampleComponent';
+import './export.css';
 
-export { ExampleComponent, Props };
+export { ExampleComponent };

@@ -13,16 +13,14 @@ npm install --save test-react-library
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from 'react';
 
-import MyComponent from 'test-react-library'
+import MyComponent from 'test-react-library';
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
+   render() {
+      return <MyComponent />;
+   }
 }
 ```
 

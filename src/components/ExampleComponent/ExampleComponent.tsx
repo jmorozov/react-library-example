@@ -6,8 +6,14 @@ import * as React from 'react';
 
 import './ExampleComponent.css';
 
-export type Props = { text: string };
+export interface Props {
+   /**
+    * Simple text prop
+    **/
+   text: string;
+}
 
+/** My First component */
 export class ExampleComponent extends React.Component<Props> {
    render() {
       const { text } = this.props;
@@ -15,8 +21,10 @@ export class ExampleComponent extends React.Component<Props> {
       return (
          <div className="test">
             Example Component: {text}
-            <p>Ooops!</p>
+            <p>Coool!</p>
          </div>
       );
    }
 }
+
+export default ExampleComponent;

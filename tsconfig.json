@@ -28,6 +28,8 @@
       "dist",
       "example",
       "rollup.config.js",
-      "styleguide.config.js"
+      "styleguide.config.js",
+      "webpack.config.js",
+      "jest.config.js"
    ]
 }

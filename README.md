@@ -12,7 +12,7 @@ npm i -s git+https://github.com/jmorozov/react-library-example.git
 
 ```tsx
 import * as React from 'react';
-
+import 'react-library-example/dist/index.css';
 import { ExampleComponent } from 'react-library-example';
 
 class Example extends React.Component {

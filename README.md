@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install --save react-library-example
+npm i -s git+https://github.com/jmorozov/react-library-example.git
 ```
 
 ## Usage

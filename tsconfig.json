@@ -26,7 +26,6 @@
       "node_modules",
       "build",
       "dist",
-      "example",
       "rollup.config.js",
       "webpack.config.js",
       "jest.config.js"
